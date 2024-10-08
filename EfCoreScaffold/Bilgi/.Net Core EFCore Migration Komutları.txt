@@ -1,0 +1,9 @@
+{
+-----------------İNDİRİLECEK PAKETLER-----------------
+-Microsoft.EntityFrameworkCore
+-Microsoft.EntityFrameworkCore.Tools
+-Microsoft.EntityFrameworkCore.Design
+-Microsoft.EntityFrameworkCore.SqlServer => Bu paket kullanılan veritabanı teknolojisine göre değişiklik gösterecektir.
+}
+1.add-migration {migrationAdı}
+2.update-database

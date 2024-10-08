@@ -1,0 +1,6 @@
+1-Adım DbContext sınıfı ve Entitieslerimiz yazıldıktan sonra 
+Tools > NuGet Package Manager > Package Manager Console ile consolu aktif etmemiz gerekiyor.
+2-Console' da Default Project alanı mevcut çalışma projeniz olmalıdır.
+3-Consola bu komutu yazıp enter layın enable-migrations.
+4-add-migration {migrationAdı} yazılıp enter
+5-Migration oluştuktan sonra update-database yazıp enterliyoruz ve veritabanı oluşmuş oluyor.
